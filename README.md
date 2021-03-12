@@ -16,7 +16,8 @@ this application works well in both android & ios devices
 note: for ios the IPv4 address should be manually updated for the http requests
 
 snippets from the app
-
+<p float="left">
 <img src="https://github.com/suhahagit/DOLO/blob/master/images/homePage.png" width="250" height="450" />
 <img src="https://github.com/suhahagit/DOLO/blob/master/images/recommendation.png" width="250" height="450" />
 <img src="https://github.com/suhahagit/DOLO/blob/master/images/history.png" width="250" height="450" />
+</p>
