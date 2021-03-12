@@ -2,7 +2,6 @@ import { observable, action, makeObservable, runInAction } from 'mobx'
 import * as Location from 'expo-location'
 import axios from 'axios'
 import { Platform } from 'react-native'
-import * as Network from 'expo-network'
 
 const API_KEY = 'f1f86ae326mshec3164bf9bdf29fp1f2e69jsnbbf55249ae99'
 const SERVER_URL = Platform.OS === 'android' ? 'http://10.0.2.2:4200' : `http://10.0.0.24:4200`
@@ -11,7 +10,6 @@ export class WeatherStore {
 
     constructor() {
 
-        this.getURL()
         this.getLocation()
         this.location = null
         this.currWeather = null
@@ -32,11 +30,6 @@ export class WeatherStore {
             addInteraction: action,
             getRecommendations: action,
         })
-    }
-
-    getURL = async () => {
-        const ipAddress = await Network.getIpAddressAsync()
-        console.log(ipAddress)
     }
 
     getLocation = async () => {
