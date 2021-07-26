@@ -11,7 +11,8 @@ the user can delete interactions (in history/favotites),
 history/favorites data is saved in `mongoDB` using `mongoose`
 posting/deleting/retrieving requests from/to the database by using `axios` 
 
-backent technology: `nodejs` using `express` server
+backend technology: `nodejs` using `express` server,
+
 state manager: `mobx` 
 
 starting server: `node server.js`
