@@ -3,7 +3,9 @@
 DOLO is an application that was made by using `expo-cli`, it helps users dress-up according to the weather by using the `open-weather-map` external API,
 
 each interaction is saved in a different screen - history screen, 
+
 users can like interactions and also view them in a different screen - favotites 
+
 the user can delete interactions (in history/favotites)
 history/favorites data is saved in `mongoDB` using `mongoose`
 posting/deleting/retrieving requests from/to the database by using `axios` 
